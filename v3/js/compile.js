@@ -88,7 +88,6 @@ Compile.prototype = {
                 return;
             }
             self.vm[exp] = newValue;
-            val = newValue;
         });
     },
     updateText: function (node, value) {
